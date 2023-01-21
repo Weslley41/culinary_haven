@@ -1,0 +1,11 @@
+#presentation {
+    background-image: url("../images/background_home.jpg");
+    background-size: cover;
+    background-position-x: 30%;
+}
+
+#presentation .title {
+    font-family: 'Rubik', sans-serif;
+    color: var(--bs-warning)!important;
+    letter-spacing: -0.3rem;
+}

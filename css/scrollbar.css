@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+    width: 10px!important;
+    height: 10px!important;
+    background-color: transparent!important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent!important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bs-warning)!important;
+    border-radius: 20px!important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-warning-text)!important;
+}
+
+::-webkit-scrollbar-button {
+    width: calc(25% - 40px)!important;
+}

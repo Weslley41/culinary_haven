@@ -1,0 +1,57 @@
+
+.card-menu:hover .card-text {
+    display: flex!important;
+    padding: 5%;
+}
+
+.card-menu .card-text {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 80%!important;
+    background-color: rgba(var(--bs-dark-rgb), .7);
+    color: var(--bs-warning);
+}
+
+.card-menu .card-img-top {
+    height: 80%!important;
+}
+
+.item-name {
+    color: var(--bs-warning);
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.item-price {
+    color: var(--bs-warning-text);
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    #menu, #menu-expand {
+        padding: 4rem 6rem!important;
+    }
+
+    .card {
+        min-width: 30%!important;
+    }
+
+    .card-menu {
+        min-width: 25%!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #menu, #menu-expand {
+        padding: 4rem 1rem!important;
+    }
+
+    .card {
+        min-width: 100%!important;
+    }
+}

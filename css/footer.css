@@ -1,0 +1,24 @@
+footer {
+    background-color: var(--bs-dark);
+}
+
+footer hr {
+    border-top: 2px solid var(--bs-warning);
+    margin: 0 15%;
+}
+
+.social-list .bi {
+    background-color: var(--bs-gray-dark);
+    color: var(--bs-warning);
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0!important;
+}
+
+li {
+    margin: .5rem 0;
+}

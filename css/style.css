@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('header.css');
+@import url('scrollbar.css');
+@import url('presentation.css');
+@import url('menu.css');
+@import url('reviews.css');
+@import url('footer.css');
+@import url('pagination.css');
+
+html {
+    background-color: var(--bs-dark);
+}
+
+body {
+    background-image: url("../images/background.jpg")!important;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.btn-go-top {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.text-bold {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.bg-glass {
+    background-color: rgba(var(--bs-dark-rgb), 0.5)!important;
+    box-shadow: 0 4px 30px rgb(0 0 0 navbar-brand text-warning title/ 10%);
+    backdrop-filter: blur(1.75px);
+    -webkit-backdrop-filter: blur(1.75px);
+}
+
+.py-6 {
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
